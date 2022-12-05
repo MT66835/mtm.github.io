@@ -1,0 +1,43 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+html {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: calc(10px + 0.5vw);
+    line-height: 1.2;
+}
+body {
+	background-color: silver;
+	color: #222;
+}
+aside {
+    
+    text-align: center;
+    position: fixed;
+    padding-top: 1em;
+    background-color: #222;
+    overflow-x: hidden;
+    font-size: 1.5em;
+    float: left;
+    min-height: 100vh;
+    max-width: 10vw;
+}
+aside a {
+    display: block;
+    font-size: 1.25rem;
+    padding: .25em 1em;
+    text-decoration: none;
+    color: gray;
+}
+aside a:hover {
+    color: white;
+}
+main {
+    padding: 2em 1em;
+    font-size: 1rem;
+    float: right;
+    max-width: 90vw;
+}
